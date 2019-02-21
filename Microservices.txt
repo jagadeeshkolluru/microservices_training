@@ -1,0 +1,26 @@
+Microservices Training Important Commands
+-----------------------------------------
+
+To start consul server
+----------------------
+consul agent -server -bootstrap-expect=1 -data-dir=consul-date -ui -bind=192.168.0.105
+
+
+To login to pivotal cloud froundry from command prompt
+------------------------------------------------------
+cf login -a api.run.pivotal.io
+
+
+To deploy jar file to pivotal cloud foundry
+-------------------------------------------
+cf push kycgpobofa-cf -p C:\Users\Administrator\BOAChennai\KYCProcess\target\KYCProcess-0.0.1-SNAPSHOT.jar
+
+
+docker pull mongo
+
+
+$ docker-machine url
+tcp://192.168.99.100:2376	
+
+
+docker run --name demo-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=demo -e MYSQL_USER=demo_user -e MYSQL_PASSWORD=demo_pass -d mysql
